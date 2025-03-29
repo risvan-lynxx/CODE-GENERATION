@@ -60,35 +60,7 @@ router.get('/', async (req, res) => {
 	
 				   let WASI_MD_TEXT = `
 *_QR Code Connected*
-*_Made With by Fredie♻️_*
-______________________________________
-╔════◇
-║ FOR ALL FREDIE BOTS
-║ _Thanks for your support._
-╚════════════════════════╝
-╔═════◇
-║  『••• ⬡𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽⬡ •••』
-║⬡ *Ytube:* _youtube.com/@freeonlinetvT1_
-║⬡ *Wa-me:* _https://wa.me/255752593977_
-║⬡ *Wa-me:* _https://wa.me/255620814108_
-║⬡ *T-me:* _t.me/freditech_
-║
-║⬡MY bot Repos⬡
-║
-║⬡ *LUCKY_MD:* _https://github.com/Fred1e/LUCKY_MD_
-║⬡ *My Github:* _https://github.com/Fred1e_
-║
-║⬡Support channels⬡
-║
-║⬡ *WATSAPP:* _https://whatsapp.com/channel/0029VAIHCQV84OM8LP59FO3F_
-║⬡ *WA GROUP:* _https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9_
-║⬡ *TELEGRAM:* _https://t.me/+u3zlb5y6OfxhOTdk_
-║
-║⬡ *©Copyright* _Fredi-Ezra|kingfredie_
-╚══════════════════════════════════╝
-_____________________________________
-	
-_Don't Forget To Give Star To My Repo_`
+
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
 
